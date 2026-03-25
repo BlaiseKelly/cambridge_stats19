@@ -1,0 +1,2053 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-03-26">
+
+<title>STATS19 reported road casualties: LA region of Cambridge – stats19_stats</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+
+<script src="site_libs/react-18.2.0/react.min.js"></script>
+
+<script src="site_libs/react-18.2.0/react-dom.min.js"></script>
+
+<script src="site_libs/reactwidget-2.0.0/react-tools.js"></script>
+
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<link href="site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
+
+<script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
+
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">stats19_stats</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./LA_report.html" aria-current="page"> 
+<span class="menu-text">Stats19 LA of Cambridge</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./outputs/Cambridge/maps/cas_location_Speed limit.html"> 
+<span class="menu-text">Casualty location Cambridge</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./outputs/Cambridge/maps/osm_casualty_type_Total.html"> 
+<span class="menu-text">Map casualties by OSM road link</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./outputs/Cambridge/tables/cas_osm.html"> 
+<span class="menu-text">Table of casualties by OSM road link Cambridge</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./outputs/Cambridge/tables/cas_msoa_rank.html"> 
+<span class="menu-text">Casualties home MSOA ranked</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./outputs/Cambridge/tables/cas_col_rate.html"> 
+<span class="menu-text">Casualty rate and speed limits table</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#where-in-cambridge" id="toc-where-in-cambridge" class="nav-link" data-scroll-target="#where-in-cambridge">Where in Cambridge?</a></li>
+  <li><a href="#road-network-analysis" id="toc-road-network-analysis" class="nav-link" data-scroll-target="#road-network-analysis">Road Network Analysis</a></li>
+  <li><a href="#speed-limits-casualty-rates-by-road-speed-limit" id="toc-speed-limits-casualty-rates-by-road-speed-limit" class="nav-link" data-scroll-target="#speed-limits-casualty-rates-by-road-speed-limit">Speed Limits: Casualty rates by road speed limit</a></li>
+  <li><a href="#grouping-by-area-and-imd" id="toc-grouping-by-area-and-imd" class="nav-link" data-scroll-target="#grouping-by-area-and-imd">Grouping by area and IMD</a>
+  <ul class="collapse">
+  <li><a href="#lsoa." id="toc-lsoa." class="nav-link" data-scroll-target="#lsoa.">LSOA.</a></li>
+  <li><a href="#relationship-with-index-of-multiple-deprivation-decile-imd" id="toc-relationship-with-index-of-multiple-deprivation-decile-imd" class="nav-link" data-scroll-target="#relationship-with-index-of-multiple-deprivation-decile-imd">Relationship with Index of Multiple Deprivation Decile (IMD)</a></li>
+  <li><a href="#imd-and-casualties" id="toc-imd-and-casualties" class="nav-link" data-scroll-target="#imd-and-casualties">IMD and Casualties</a></li>
+  <li><a href="#msoa" id="toc-msoa" class="nav-link" data-scroll-target="#msoa">MSOA</a></li>
+  </ul></li>
+  <li><a href="#casualty-demographics" id="toc-casualty-demographics" class="nav-link" data-scroll-target="#casualty-demographics">Casualty Demographics</a></li>
+  <li><a href="#cost-of-prevention" id="toc-cost-of-prevention" class="nav-link" data-scroll-target="#cost-of-prevention">Cost of prevention</a></li>
+  <li><a href="#single-vehicle-pavement-collisions" id="toc-single-vehicle-pavement-collisions" class="nav-link" data-scroll-target="#single-vehicle-pavement-collisions">Single Vehicle Pavement Collisions</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a></li>
+  </ul></li>
+  <li><a href="#casualty-type-categorisation." id="toc-casualty-type-categorisation." class="nav-link" data-scroll-target="#casualty-type-categorisation.">Casualty type categorisation.</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">STATS19 reported road casualties: LA region of Cambridge</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>This is a report for the Local Authority (LA) region of Cambridge, which can be reproduced for any LA by cloning the repository at https://github.com/blaisekelly/stats19_stats. #The LA boundary is shown on this plot of the cycle network (from OSM data processed with the osmactive package).</p>
+<p>In this report all serious and slight casualty data is based on the adjusted data.</p>
+<p>In 2024, Cambridge had 213 collisions involving all casualty types resulting in 243 casualties reported to the police. This is the 206th highest of 374 Local Authorities in Great Britain (216th per capita) and a decrease in collisions of 22 but a decrease in total casualties of 20. For fatal it ranked 348th ( 300th per capita) with 0 casualties down on 2023. For KSIs it ranked 256th (237th per capita) with 49 casualties down on 2023. For serious injuries it ranked 244th (223rd per 1000) with 49 casualties down on 2023. For slight injuries it ranked 187th (204th per 1000) with 194 casualties down on 2023.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_All_fatal_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_All_ksi_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_All_total_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+</div>
+</div>
+<p>Compared to 5 years ago collisions are up by 11, total casualties up by 18, fatalities down by 1, KSI casualties down by 1, serious injuries down by 0 and slight injuries up by 19.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="outputs/Cambridge/plots/national/rank_All.png" class="img-fluid figure-img" width="969"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>For cyclists there were 124 collisions resulting in 124 cyclist casualties reported to the police. This is the 22nd highest of 374 Local Authorities in Great Britain (11th per capita) and a decrease in collisions of 8 but a decrease in total casualties. For fatal it ranked 216th (189th per capita) with 0 cyclist casualties down on 2023. For KSIs it ranked 26th ( 9th per capita) with 30 casualties down on 2023. For serious injuries it ranked 26th (9th per 1000) with 30 cyclist casualties down on 2023. For slight injuries it ranked 22nd (12th per 1000) with 94 cyclist casualties down on 2023.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_Cyclist_fatal_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_Cyclist_ksi_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_Cyclist_total_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+</div>
+</div>
+<p>Compared to 5 years ago collisions involving cyclists are up by 16, total casualties up by 13, fatalities down by 1, KSI casualties up by 7, serious injuries up by 8 and slight injuries up by 6.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="outputs/Cambridge/plots/national/rank_Cyclist.png" class="img-fluid figure-img" width="969"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>For pedestrians there were 19 collisions resulting in 24 pedestrian casualties reported to the police. This is the 242nd highest of 374 Local Authorities in Great Britain (250th per capita) and a decrease in collisions of 11 and a decrease in total casualties. For fatal it ranked 286th (247th per capita) with 0 pedestrian casualties down on 2023. For KSIs it ranked 310th (291st per capita) with 5 casualties down on 2023. For serious injuries it ranked 299th (281st per capita) with 5 pedestrian casualties down on 2023. For slight injuries it ranked 206th (214th per capita) with 19 pedestrian casualties down on 2023.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_Pedestrian_fatal_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_Pedestrian_ksi_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/national/la_casualties_Pedestrian_total_cas_LY.png" class="img-fluid" width="2250"></p>
+</div>
+</div>
+</div>
+<p>Compared to 5 years ago collisions involving pedestrians are down by 10, total casualties down by 7, fatalities down by 0, KSI casualties down by 5, serious injuries down by 5 and slight injuries down by 2.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="outputs/Cambridge/plots/national/rank_Pedestrian.png" class="img-fluid figure-img" width="969"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="where-in-cambridge" class="level2">
+<h2 class="anchored" data-anchor-id="where-in-cambridge">Where in Cambridge?</h2>
+<p>The interactive map at <a href="https://blaisekelly.github.io/stats19_stats/outputs/Bristol/maps/cas_location_Speed%20limit.html">this link</a> shows the location of all collisions between 2010 and 2024 sized by severity of the casualties and coloured by the speed limit of the road it took place on and dissagregated by casualty using the radio buttons. Clicking on each casualty provides further information about the casualty. (note: sometimes when first loading the casualty types need to be toggled a few times before they show the correct corresponding dots, clue is that bus occupants don’t make up many casualties) # <code>{r, fig.width=100%} # #| echo: false # knitr::include_graphics("https://blaisekelly.github.io/stats19_stats/outputs/Bristol/maps/cas_location_Speed%20limit.html") #  #</code></p>
+<p>Grouping by street, using Open Street Maps data, the map at <a href="https://blaisekelly.github.io/stats19_stats/outputs/Bristol/maps/osm_casualty_type_Total.html">this link</a> shows the collisions for each street coloured by KSI and dissagregated by year. Each street can be clicked to activate a pop-up with more details.</p>
+</section>
+<section id="road-network-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="road-network-analysis">Road Network Analysis</h2>
+<p>Casualty data was matched to 594 road links from OpenStreetMap for the period 2010 to 2024, covering 1174 collisions. The road with the highest number of collisions was Mill Road (28), followed by Mill Road (16). Across 5 years the peak year for collisions on mapped roads was 2022 with 271 collisions. By casualty type the most common on the OSM network was Cyclist (643 collisions). The table below shows the highest 20 roads by collision count for the full period. Click a header to sort the column.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="reactable html-widget html-fill-item" id="htmlwidget-b2046058f23f1093b872" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-b2046058f23f1093b872">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Road name":["Mill Road","Mill Road","East Road","Histon Road","Trumpington Road","Northampton Street","Coldhams Lane","Trumpington Street","Gilbert Road","Cherry Hinton Road","Hills Road","Hills Road","Station Road","Mere Way","Arbury Road","Elizabeth Way",null,"Windsor Road","Perne Road","Saint Andrew's Street","Devonshire Road","The Fen Causeway","Hills Road","Cherry Hinton Road","Regent Street","The Fen Causeway","Barnwell Road","Cherry Hinton Road","Chesterton Road","Parkside","Bridge Street","Gonville Place","Brooks Road","Queen's Road","Red Cross Lane","Trumpington Road","High Street","Trumpington Road","Gonville Place","Newmarket Road","Elizabeth Way","Arbury Road","Arbury Road","Saint Andrew's Street","Trumpington Street",null,"Tenison Road","Barnwell Road","Coleridge Road","Babraham Road","Elizabeth Way","Madingley Road","Coldhams Lane","Cheddars Lane","Mowbray Road","Chesterton Road","Campkin Road","Castle Street","Saint Andrew's Street","Teversham Drift","Cherry Hinton Road",null,null,"Lime Kiln Road","Hills Road","Barton Road","Milton Road","Long Road","Queen Edith's Way","Histon Road","Milton Road","Huntingdon Road","Fen Road","Barnwell Road","M11","Saint Andrew's Street","Bridge Street","Cherry Hinton Road","Regent Street","Victoria Avenue","Carlton Way","Fulbourn Road",null,"Ferry Path","Lovell Road","Union Road",null,"Stretten Avenue","Argyle Street","High Street","St Barnabas Road","Cherry Hinton Road","Brookfields",null,"Queen Edith's Way","Hills Road","Babraham Road","High Street","Hills Road",null,"Green End Road","Ditton Lane","East Road","Norfolk Street","Brooks Road",null,null,"Milton Road","Mill Road","Cromwell Road","Fendon Road","Newmarket Road","Newmarket Road","Shelford Road","Lensfield Road","Trumpington Road","Histon Road","Ditton Lane","Cromwell Road","Milton Road","Milton Road","Huntingdon Road","Gonville Place","Newmarket Road","Church Lane","Warwick Road","Brooks Road","Coldhams Lane","East Road","Fulbourn Road","Long Road","Hobson Street","Godwin Way","Victoria Avenue","Hills Road","Madingley Road","Victoria Road","Newmarket Road","West Road","Silver Street","Chesterton Road","Newmarket Road","Castle Street","Kings Hedges Road","Brooklands Avenue","Coleridge Road","Long Road","Coldhams Lane","Wadloes Road","Huntingdon Road","Milton Road","Lensfield Road","Glebe Road","Madingley Road","Coldhams Lane","Old Mills Road","Cherry Hinton Road","Fisher's Lane","Water Lane","High Street","Union Lane","Radegund Road","Brooks Road","Whitehill Road","Gilbert Road","Lady Margaret Road","Newnham Road","Victoria Road","Newmarket Road","Ditton Walk","Silverwood Close","Fendon Road","Elizabeth Way","Emmanuel Road","Short Street","Four Lamps Roundabout","Burleigh Place","New Street","Bradmore Street",null,"Milton Road","Trinity Lane","Pembroke Street","Trumpington Street","Tennis Court Road","Jesus Lane","Gunhild Way","Elizabeth Way","Sidgwick Avenue","Barton Road","Wilberforce Road","Norwich Street","Shaftesbury Road","Perne Road","Ramsden Square","St Kilda Avenue","Carlton Way","Perse Way","Akeman Street","Newmarket Road","Harvey Road","Covent Garden","Glisson Road","Chesterton Road","Regent Terrace","Hauxton Road","Milton Road","Histon Road","Barton Road","Lime Avenue","Kings Hedges Road","East Road","Grange Road","Hauxton Road","High Street","Newmarket Road",null,null,"Perne Road",null,null,null,"Elizabeth Way","Kings Hedges Road","Jesus Lane","Barnwell Road","M11","Newmarket Road","Newmarket Road","Downing Street","Brooks Road","Four Lamps Roundabout",null,"Nuffield Road","Kings Hedges Road","Elizabeth Way","Mowbray Road","Hobson Street",null,"Ditton Lane","Newmarket Road","Shelford Road","Addenbrooke's Road","Queen's Road","Brooklands Avenue","Trumpington Road","Trumpington Road","Bateman Street","Station Road","Green End Road","Newmarket Road",null,"Malcolm Street","Stockwell Street","Milton Road","Huntingdon Road","Huntingdon Road","Huntingdon Road","Huntingdon Road","Barnwell Road","Birdwood Road","Newmarket Road","Newmarket Road","Campkin Road","Madingley Road","Cherry Hinton Road","Histon Road","Histon Road","Mill Road","Hills Road","Hills Road","Rustat Road","Rustat Road","Hills Road","Holbrook Road","Nuffield Road","Lime Kiln Road","Chesterton Road","Glisson Road","High Street","High Street","Long Road","Dame Mary Archer Way","Queen's Road","Sidgwick Avenue","Cromwell Road","Addenbrooke's Road","Fairfax Road","Wulfstan Way","Green End Road","Victoria Avenue","Coldhams Lane","Mill Road","Eastfield","Huntingdon Road","Hazelwood Close","Jesus Lane","Eddington Avenue","Hills Road","Kings Hedges Road","East Road","Mount Pleasant","Castle Street","Cambridgeshire Guided Busway","Hills Road","Hills Road","Coldhams Lane","Rustat Road","Catharine Street","Ross Street","Tenison Road",null,"Newmarket Road","Tenison Road","Downing Place","Fair Street","New Square","Kings Hedges Road","Madingley Road","Long Road","Parker Street","Cherry Hinton Road","Westfield Interchange","Kingsley Walk","Fison Road","Clifton Road","Lichfield Road","Glebe Road","Trumpington Street","Station Road","Long Road","East Road","Elizabeth Way","Garlic Row","Coldhams Lane","Brampton Road","Madingley Road","Elizabeth Way","Newmarket Road","Newmarket Road","Newmarket Road","Barnwell Road","Gwydir Street","Sturton Street","Gresham Road","Station Road","Lyndewode Road","Baldock Way","Hobson Street","Cowley Park",null,"Addenbrooke's Road","Colville Road","Newmarket Road",null,"Water Street","Maids Causeway","Hatherdene Close","Anns Road","Thorpe Way","Helen Close","Davy Road","Great Northern Road","Perne Road","Peverel Road","Peverel Road","Thorleye Road","Stanesfield Road","Stourbridge Grove",null,"Milton Road","High Street","Newmarket Road","The Fen Causeway","Albion Row","Ditton Lane","Ekin Road","Ditton Fields","Beche Road",null,"Green End Road","Fairfax Road","Romsey Road","Seymour Street","Occupation Road","Queensway","Saint Andrew's Street","Parkside","James Street","City Road","Dover Street","York Street","Staffordshire Street","Broad Street","Kingston Street","Tenison Road","St Barnabas Road","Chesterton Road","Magdalene Street","King's Parade","Corn Exchange Street","Free School Lane","Tennis Court Road","Manor Street","Missleton Court","Carlyle Road","Magrath Avenue","Chesterton Road","Elizabeth Way","Elizabeth Way","Ashbury Close","Grantchester Street","Lammas Field","Derby Street","Grantchester Road","Grange Road","Adams Road","Cam Causeway","Discovery Way","Sherbourne Close","Coronation Street","Aberdeen Avenue","Bentley Road",null,"Kirkwood Road","St Albans Road","Molewood Close","Brackley Close","Gurney Way","Nicholson Way","Apthorpe Way","Leys Road","Hurst Park Avenue","Hurrell Road","Darwin Drive","Linden Close","Sherlock Road","Oxford Road","Priory Street","Carisbrooke Road","Alpha Terrace","Madingley Road",null,"Newmarket Road","Newmarket Road","Storey's Way","All Souls Lane","Hope Street","Rathmore Road","Homerton Street","Chalmers Road","St Bedes Crescent","Storey's Way","Warren Close","Herbert Street","St Andrew's Road","Harrison Drive","Mander Way","Wulfstan Way","Kelvin Close",null,"Suez Road",null,"Coldhams Lane","The Fen Causeway","Fulbourn Road","Fendon Road","Coldhams Lane","Coldhams Lane","High Street","Milton Road","Scotland Road","Oyster Row","Devonshire Road","Tenison Road","Queen Edith's Way","Queen Edith's Way","Coldhams Lane","Sidney Farm Road","Hills Road","Trumpington Road","Trumpington Road","Madingley Road","Coldhams Lane","Renard Way","Kings Hedges Road","Bateman Street","Bridge Street","St Matthew's Gardens","Histon Road","Chesterton Road","Chesterton Road","Granham's Road","Shelford Road",null,"Newmarket Road","De Freville Avenue","Histon Road","Rawlyn Road","Perne Road",null,null,null,"Newmarket Road","M11","Woodhead Drive","Milton Road",null,"Hills Road","Nightingale Avenue","Madingley Road","Milton Road","M11",null,"High Street","Campkin Road","Newmarket Road","Elizabeth Way","Parkside","East Road","Norfolk Street","East Road","East Road",null,"Mowbray Road",null,"Addenbrooke's Road",null,null,null,"Four Lamps Roundabout","High Street","High Street","Hills Road",null,"Garden Walk","East Road","Station Road","Trumpington Road","Chesterton Road",null,"Queen Edith's Way","Queen Edith's Way","Milton Road","Milton Road",null,"Elizabeth Way","Vinery Road","Norfolk Street","Shelford Road",null,"Addenbrooke's Road","Addenbrooke's Road",null,"Mowbray Road","Addenbrooke's Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road",null,"Newmarket Road",null,"Hobson Avenue","Shelford Road","Shelford Road","Shelford Road","Hauxton Road","Milton Road","Grange Road","Shelford Road","Hills Road","East Road","High Street","Hills Road","Coldhams Lane","Harrison Drive","Radegund Road","Perne Road","Perne Road","Perne Road","Great Northern Road","Newmarket Road","Castle Street","Madingley Road","Wadloes Road","Gilbert Road","Histon Road","M11","Histon Road"],"Mean age":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"Mean sex":[0.6,0.6,0.6,0.5,0.4,0.7,0.5,0.4,0.1,0.4,0.6,1,0.6,0.4,1,0.5,0.9,0.4,0.6,0.3,0.7,0.7,0.7,0.7,0.7,0.7,0.5,0.4,0.8,0.6,0.8,0.7,0.6,0.6,0.8,0.9,0.5,0.8,0.3,0.4,0.9,0.6,0.6,0.8,0.5,0.5,0.5,0.6,0.5,0.2,0.2,0.5,0.8,0.3,0.2,0.5,1,0.5,0.2,0.8,0.8,0.5,0.2,0.8,0.2,1,1,1,0.5,1,0.3,0,0.8,0.3,0.3,1,0.5,0.7,0.3,0.6,1,0.7,0.8,0.3,"NA",0.7,1,0.7,1,1,0.5,0.8,0.8,0.2,0.2,1,0.7,0.3,0.8,0.7,0.7,0.6,0.8,1,"NA",0,0.7,1,0.3,0.7,0.8,0.8,0.8,0.5,0.3,0.3,0.2,0.5,0.5,1,0.3,0,1,0,0,1,1,0.5,0.5,0.5,1,0.5,0.3,0.5,1,0.5,1,1,1,1,1,0.5,0.5,0.7,0.3,0.5,1,0.5,0.5,0.7,0,1,0.5,0.5,0.5,0.5,0,0.5,1,0,0.5,0.5,1,1,1,1,0.5,0.5,0,1,0.5,1,0.5,0.5,0.5,0,0,0.5,0.5,1,1,0.5,0.7,1,0.5,1,0.5,0.5,0.5,1,0.5,0.5,0.5,1,0.5,0.5,0.5,0,1,0.7,0.5,1,1,1,0.7,0.7,1,1,0.5,1,0.7,0.5,0.5,1,0.5,1,0.5,0.5,0.5,1,1,1,0,0.5,1,0.7,0.8,1,0.5,0.5,1,0.5,0.5,0.5,0.5,1,0.5,0.5,1,0.5,1,0.3,0,0.5,1,0,1,1,0,1,0,1,0,1,1,0,1,0,1,0,0,0.5,0,1,0,0,1,1,0,0,1,0.5,1,1,1,1,1,1,0,0,0,1,1,1,0,1,0.5,0,1,1,0,0,1,0.2,0.5,1,1,1,0,0.5,1,0,1,1,1,1,1,1,1,0,1,0,1,1,0,0,0,1,1,0,0,1,1,0,1,0,0,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,0,0,1,1,0,1,0.3,1,0,1,1,0,1,1,1,1,1,1,0,0,0,1,0,1,0,1,1,1,1,1,0,1,1,1,0,1,0,1,1,1,0,1,0,0,0,1,0,0,0,1,1,1,0,0,1,1,1,1,0,1,0,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,1,0,1,0,0,0,0,1,1,0.5,0,1,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,1,1,0.5,1,1,1,1,1,0,0,1,1,0,0,0,1,1,0,0,1,1,1,0,0,1,1,1,0,0,1,0,1,0,0,0,1,0,0,1,1,0,1,0,1,0,0,0,1,0,1,1,0.7,1,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,1,0,1,0,1,1,0,1,1,0,0,1,1,1,0,1,0.5,0.7,1,1,1,0,0.5,0,1,1,1,0.5,1,0,1,0.5,0,0,0.5,1,0,0,0,1,0,0,0,1,1,1,1,1,0,0,"NA"],"Speed limit":[25,25,30,28,30,30,29,28,29,23,30,30,27,20,24,30,28,29,30,24,25,30,30,27,28,35,30,30,30,26,22,30,30,30,28,30,30,30,30,30,30,26,24,24,30,30,25,30,25,30,35,32,30,28,30,30,28,28,22,26,25,25,28,55,28,30,27,32,25,30,30,30,20,33,70,23,25,27,33,30,23,30,28,27,25,27,33,27,23,27,30,28,25,22,22,30,33,33,30,33,30,30,30,23,30,27,30,33,30,23,30,30,30,30,30,30,30,30,20,25,30,30,30,30,30,30,25,30,30,35,25,25,30,30,30,35,30,35,25,25,25,30,25,30,30,25,35,30,20,30,35,30,30,30,25,25,25,30,30,27,30,20,25,25,30,30,30,20,30,25,20,20,30,25,35,25,20,20,30,30,30,20,30,20,25,25,25,35,25,30,25,25,30,35,20,30,20,30,25,30,30,30,30,32,20,33,25,30,30,30,30,25,20,30,30,30,30,30,35,30,30,30,30,30,25,27,70,30,20,30,35,35,30,20,30,30,30,25,25,30,30,33,30,25,30,35,30,30,30,20,25,70,20,30,30,30,30,30,30,30,20,30,30,30,30,30,30,30,40,30,40,30,30,30,30,20,20,30,20,30,20,30,30,30,20,20,30,20,20,30,30,30,20,20,30,30,30,40,30,20,30,30,30,20,30,30,30,30,30,20,20,40,30,20,30,20,30,30,30,30,20,30,60,30,30,30,30,30,30,30,40,30,30,30,30,20,30,30,30,40,30,30,30,20,20,30,30,20,20,20,40,40,30,30,70,20,30,30,20,30,30,30,30,30,20,20,30,30,30,30,30,40,30,30,20,30,20,30,30,30,20,30,20,20,30,30,20,20,40,30,30,30,30,30,30,30,30,30,20,20,30,20,20,30,30,30,20,30,20,30,30,20,30,30,40,30,30,20,20,30,30,30,30,30,30,20,30,20,30,20,20,20,30,30,20,30,20,30,30,40,20,40,30,30,30,30,30,20,30,30,20,30,30,20,20,20,30,30,30,30,70,20,70,30,20,30,30,20,30,30,20,30,30,20,20,30,20,30,30,30,30,30,40,30,30,30,20,30,20,30,30,30,60,30,30,30,30,30,20,30,30,40,30,30,70,30,30,20,30,20,40,30,70,70,20,20,30,30,20,30,30,30,30,30,30,30,30,30,30,30,20,30,30,30,30,30,30,20,30,30,30,30,20,30,30,30,30,20,30,30,30,30,40,50,40,30,30,30,40,30,30,30,30,30,20,30,30,30,30,30,30,30,30,20,30,40,30,30,30,30,30,20,30,30,30,"NaN",20,20,70,30,30,30,70,30],"# collisions":[28,16,14,12,11,9,8,8,8,8,8,8,7,7,7,7,7,6,6,6,6,6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"Fatal":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0],"Serious":[9,7,5,1,5,1,4,2,1,4,2,3,3,2,1,0,3,2,3,3,3,2,0,3,2,1,0,1,1,2,1,0,0,2,0,3,1,1,2,1,0,2,2,3,2,2,2,0,3,0,0,1,1,1,0,2,0,1,0,1,1,4,0,1,1,1,1,1,1,0,0,2,0,0,0,2,0,0,0,1,1,1,1,0,0,1,0,0,0,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,0,0,1,0,0,1,1,0,1,0,1,1,2,0,1,1,0,0,1,0,0,0,1,0,0,1,1,0,1,0,1,1,2,0,0,1,0,1,2,2,0,0,0,0,0,1,1,0,0,1,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,2,1,1,1,2,0,1,0,0,1,0,1,0,0,1,1,1,3,1,0,0,1,0,0,0,0,0,0,0,1,2,1,0,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,2,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,0,1,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,2,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0],"KSI":[9,7,5,1,5,1,4,2,1,4,2,3,3,2,1,0,3,2,3,3,3,2,0,3,2,1,0,1,1,2,1,0,0,2,0,3,1,1,2,1,0,2,2,3,2,2,2,0,3,0,0,1,1,1,0,2,0,1,0,1,1,4,0,1,1,1,1,1,1,0,0,2,0,0,0,2,0,0,0,1,1,1,1,0,0,1,0,0,0,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,0,0,1,0,0,1,1,0,2,0,1,1,2,0,1,1,0,0,1,0,0,0,1,0,0,1,1,0,1,0,1,1,2,0,0,1,0,1,2,2,0,0,0,0,0,1,1,0,0,1,1,1,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,2,1,1,1,2,0,1,0,0,1,0,1,0,0,1,1,1,3,1,0,0,1,0,0,0,0,0,0,0,1,2,1,0,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,2,1,0,1,0,0,0,1,0,1,1,0,0,0,0,1,0,0,1,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,2,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0],"Slight":[20,9,9,12,6,9,6,7,7,5,6,6,4,6,6,10,5,5,5,4,3,4,6,4,4,5,6,4,5,3,4,10,7,3,5,4,5,4,7,4,7,3,3,2,2,2,2,5,1,5,4,3,4,5,4,2,4,3,5,4,3,0,4,3,5,5,5,4,3,4,3,1,4,3,3,1,6,3,3,4,2,2,3,3,4,2,3,3,3,2,3,4,3,3,3,3,2,2,3,2,2,4,4,2,3,3,2,3,6,2,4,5,2,4,2,2,2,2,1,1,3,2,1,2,2,2,1,2,4,1,1,2,2,2,2,1,0,2,2,1,2,1,0,1,3,2,2,2,2,2,1,2,2,1,1,1,2,2,1,3,1,2,2,2,1,3,2,2,2,1,2,1,2,2,2,0,2,2,2,2,2,1,3,2,2,2,2,2,2,2,2,1,2,0,1,1,1,0,2,2,2,2,1,4,2,3,2,1,1,1,0,1,2,2,1,2,2,2,2,2,2,2,1,0,1,3,3,2,1,2,2,2,2,1,2,2,2,1,2,1,2,3,1,2,2,2,2,1,2,2,0,3,1,1,1,1,1,1,0,1,1,2,1,1,1,1,0,1,2,1,1,1,1,1,1,0,1,1,1,0,1,1,2,1,1,1,2,1,0,0,1,1,1,4,2,0,1,1,0,1,2,1,1,1,1,1,1,1,1,1,0,2,1,1,1,2,1,1,1,0,0,1,0,1,0,1,1,0,1,1,2,1,1,1,1,1,0,0,0,1,1,0,0,1,1,1,0,1,0,1,2,1,1,1,0,1,0,0,1,0,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,2,1,0,1,1,0,1,1,1,0,2,1,1,1,1,5,1,2,1,1,2,1,1,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0,0,1,1,1,1,1,1,1,0,1,1,0,0,1,0,1,0,1,1,0,1,1,1,1,1,0,1,1,1,1,2,1,1,0,0,1,1,2,0,1,0,0,1,1,0,1,1,1,1,1,2,0,1,0,1,1,1,1,2,0,0,1,0,1,1,1,1,0,1,0,2,1,1,1,1,1,0,1,0,1,1,0,1,3,1,1,1,0,2,0,1,1,1,0,1,1,1,1,1,3,1,0,1,1,3,1,1,1,0,1,1,0,1,1,2,1,0,0,1,0,1,1,1,1,1,1,0,2,1,0,0,1,1,1,0,2,1,0,1,1,2,1,1,1,1,1,1,0,1,2,1,1,2,0,1,0,1,1,1,0,1,1,1,2,1,1,1,1,1],"Total":[29,16,14,13,11,10,10,9,8,9,8,9,7,8,7,10,8,7,8,7,6,6,6,7,6,6,6,5,6,5,5,10,7,5,5,7,6,5,9,5,7,5,5,5,4,4,4,5,4,5,4,4,5,6,4,4,4,4,5,5,4,4,4,4,6,6,6,5,4,4,3,3,4,3,3,3,6,3,3,5,3,3,4,3,4,3,3,3,3,3,4,4,4,4,4,3,3,3,4,3,3,5,4,3,3,3,3,3,6,3,5,5,4,4,3,3,4,2,2,2,3,2,2,2,2,2,2,2,4,2,2,2,3,2,3,2,2,2,2,2,2,2,2,3,3,2,2,2,2,3,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,4,3,3,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,4,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,3,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,2,1,1,1,1,1,2,4,2,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,2,1,1,1,1,6,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,3,1,1,1,1,3,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,2,3,1,1,1,1,2,1,1,1,1,2,1,1,1,2,1,1,2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,2,1]},"columns":[{"id":"Road name","name":"Road name","type":"character","cell":["Mill Road","Mill Road","East Road","Histon Road","Trumpington Road","Northampton Street","Coldhams Lane","Trumpington Street","Gilbert Road","Cherry Hinton Road","Hills Road","Hills Road","Station Road","Mere Way","Arbury Road","Elizabeth Way","NA","Windsor Road","Perne Road","Saint Andrew's Street","Devonshire Road","The Fen Causeway","Hills Road","Cherry Hinton Road","Regent Street","The Fen Causeway","Barnwell Road","Cherry Hinton Road","Chesterton Road","Parkside","Bridge Street","Gonville Place","Brooks Road","Queen's Road","Red Cross Lane","Trumpington Road","High Street","Trumpington Road","Gonville Place","Newmarket Road","Elizabeth Way","Arbury Road","Arbury Road","Saint Andrew's Street","Trumpington Street","NA","Tenison Road","Barnwell Road","Coleridge Road","Babraham Road","Elizabeth Way","Madingley Road","Coldhams Lane","Cheddars Lane","Mowbray Road","Chesterton Road","Campkin Road","Castle Street","Saint Andrew's Street","Teversham Drift","Cherry Hinton Road","NA","NA","Lime Kiln Road","Hills Road","Barton Road","Milton Road","Long Road","Queen Edith's Way","Histon Road","Milton Road","Huntingdon Road","Fen Road","Barnwell Road","M11","Saint Andrew's Street","Bridge Street","Cherry Hinton Road","Regent Street","Victoria Avenue","Carlton Way","Fulbourn Road","NA","Ferry Path","Lovell Road","Union Road","NA","Stretten Avenue","Argyle Street","High Street","St Barnabas Road","Cherry Hinton Road","Brookfields","NA","Queen Edith's Way","Hills Road","Babraham Road","High Street","Hills Road","NA","Green End Road","Ditton Lane","East Road","Norfolk Street","Brooks Road","NA","NA","Milton Road","Mill Road","Cromwell Road","Fendon Road","Newmarket Road","Newmarket Road","Shelford Road","Lensfield Road","Trumpington Road","Histon Road","Ditton Lane","Cromwell Road","Milton Road","Milton Road","Huntingdon Road","Gonville Place","Newmarket Road","Church Lane","Warwick Road","Brooks Road","Coldhams Lane","East Road","Fulbourn Road","Long Road","Hobson Street","Godwin Way","Victoria Avenue","Hills Road","Madingley Road","Victoria Road","Newmarket Road","West Road","Silver Street","Chesterton Road","Newmarket Road","Castle Street","Kings Hedges Road","Brooklands Avenue","Coleridge Road","Long Road","Coldhams Lane","Wadloes Road","Huntingdon Road","Milton Road","Lensfield Road","Glebe Road","Madingley Road","Coldhams Lane","Old Mills Road","Cherry Hinton Road","Fisher's Lane","Water Lane","High Street","Union Lane","Radegund Road","Brooks Road","Whitehill Road","Gilbert Road","Lady Margaret Road","Newnham Road","Victoria Road","Newmarket Road","Ditton Walk","Silverwood Close","Fendon Road","Elizabeth Way","Emmanuel Road","Short Street","Four Lamps Roundabout","Burleigh Place","New Street","Bradmore Street","NA","Milton Road","Trinity Lane","Pembroke Street","Trumpington Street","Tennis Court Road","Jesus Lane","Gunhild Way","Elizabeth Way","Sidgwick Avenue","Barton Road","Wilberforce Road","Norwich Street","Shaftesbury Road","Perne Road","Ramsden Square","St Kilda Avenue","Carlton Way","Perse Way","Akeman Street","Newmarket Road","Harvey Road","Covent Garden","Glisson Road","Chesterton Road","Regent Terrace","Hauxton Road","Milton Road","Histon Road","Barton Road","Lime Avenue","Kings Hedges Road","East Road","Grange Road","Hauxton Road","High Street","Newmarket Road","NA","NA","Perne Road","NA","NA","NA","Elizabeth Way","Kings Hedges Road","Jesus Lane","Barnwell Road","M11","Newmarket Road","Newmarket Road","Downing Street","Brooks Road","Four Lamps Roundabout","NA","Nuffield Road","Kings Hedges Road","Elizabeth Way","Mowbray Road","Hobson Street","NA","Ditton Lane","Newmarket Road","Shelford Road","Addenbrooke's Road","Queen's Road","Brooklands Avenue","Trumpington Road","Trumpington Road","Bateman Street","Station Road","Green End Road","Newmarket Road","NA","Malcolm Street","Stockwell Street","Milton Road","Huntingdon Road","Huntingdon Road","Huntingdon Road","Huntingdon Road","Barnwell Road","Birdwood Road","Newmarket Road","Newmarket Road","Campkin Road","Madingley Road","Cherry Hinton Road","Histon Road","Histon Road","Mill Road","Hills Road","Hills Road","Rustat Road","Rustat Road","Hills Road","Holbrook Road","Nuffield Road","Lime Kiln Road","Chesterton Road","Glisson Road","High Street","High Street","Long Road","Dame Mary Archer Way","Queen's Road","Sidgwick Avenue","Cromwell Road","Addenbrooke's Road","Fairfax Road","Wulfstan Way","Green End Road","Victoria Avenue","Coldhams Lane","Mill Road","Eastfield","Huntingdon Road","Hazelwood Close","Jesus Lane","Eddington Avenue","Hills Road","Kings Hedges Road","East Road","Mount Pleasant","Castle Street","Cambridgeshire Guided Busway","Hills Road","Hills Road","Coldhams Lane","Rustat Road","Catharine Street","Ross Street","Tenison Road","NA","Newmarket Road","Tenison Road","Downing Place","Fair Street","New Square","Kings Hedges Road","Madingley Road","Long Road","Parker Street","Cherry Hinton Road","Westfield Interchange","Kingsley Walk","Fison Road","Clifton Road","Lichfield Road","Glebe Road","Trumpington Street","Station Road","Long Road","East Road","Elizabeth Way","Garlic Row","Coldhams Lane","Brampton Road","Madingley Road","Elizabeth Way","Newmarket Road","Newmarket Road","Newmarket Road","Barnwell Road","Gwydir Street","Sturton Street","Gresham Road","Station Road","Lyndewode Road","Baldock Way","Hobson Street","Cowley Park","NA","Addenbrooke's Road","Colville Road","Newmarket Road","NA","Water Street","Maids Causeway","Hatherdene Close","Anns Road","Thorpe Way","Helen Close","Davy Road","Great Northern Road","Perne Road","Peverel Road","Peverel Road","Thorleye Road","Stanesfield Road","Stourbridge Grove","NA","Milton Road","High Street","Newmarket Road","The Fen Causeway","Albion Row","Ditton Lane","Ekin Road","Ditton Fields","Beche Road","NA","Green End Road","Fairfax Road","Romsey Road","Seymour Street","Occupation Road","Queensway","Saint Andrew's Street","Parkside","James Street","City Road","Dover Street","York Street","Staffordshire Street","Broad Street","Kingston Street","Tenison Road","St Barnabas Road","Chesterton Road","Magdalene Street","King's Parade","Corn Exchange Street","Free School Lane","Tennis Court Road","Manor Street","Missleton Court","Carlyle Road","Magrath Avenue","Chesterton Road","Elizabeth Way","Elizabeth Way","Ashbury Close","Grantchester Street","Lammas Field","Derby Street","Grantchester Road","Grange Road","Adams Road","Cam Causeway","Discovery Way","Sherbourne Close","Coronation Street","Aberdeen Avenue","Bentley Road","NA","Kirkwood Road","St Albans Road","Molewood Close","Brackley Close","Gurney Way","Nicholson Way","Apthorpe Way","Leys Road","Hurst Park Avenue","Hurrell Road","Darwin Drive","Linden Close","Sherlock Road","Oxford Road","Priory Street","Carisbrooke Road","Alpha Terrace","Madingley Road","NA","Newmarket Road","Newmarket Road","Storey's Way","All Souls Lane","Hope Street","Rathmore Road","Homerton Street","Chalmers Road","St Bedes Crescent","Storey's Way","Warren Close","Herbert Street","St Andrew's Road","Harrison Drive","Mander Way","Wulfstan Way","Kelvin Close","NA","Suez Road","NA","Coldhams Lane","The Fen Causeway","Fulbourn Road","Fendon Road","Coldhams Lane","Coldhams Lane","High Street","Milton Road","Scotland Road","Oyster Row","Devonshire Road","Tenison Road","Queen Edith's Way","Queen Edith's Way","Coldhams Lane","Sidney Farm Road","Hills Road","Trumpington Road","Trumpington Road","Madingley Road","Coldhams Lane","Renard Way","Kings Hedges Road","Bateman Street","Bridge Street","St Matthew's Gardens","Histon Road","Chesterton Road","Chesterton Road","Granham's Road","Shelford Road","NA","Newmarket Road","De Freville Avenue","Histon Road","Rawlyn Road","Perne Road","NA","NA","NA","Newmarket Road","M11","Woodhead Drive","Milton Road","NA","Hills Road","Nightingale Avenue","Madingley Road","Milton Road","M11","NA","High Street","Campkin Road","Newmarket Road","Elizabeth Way","Parkside","East Road","Norfolk Street","East Road","East Road","NA","Mowbray Road","NA","Addenbrooke's Road","NA","NA","NA","Four Lamps Roundabout","High Street","High Street","Hills Road","NA","Garden Walk","East Road","Station Road","Trumpington Road","Chesterton Road","NA","Queen Edith's Way","Queen Edith's Way","Milton Road","Milton Road","NA","Elizabeth Way","Vinery Road","Norfolk Street","Shelford Road","NA","Addenbrooke's Road","Addenbrooke's Road","NA","Mowbray Road","Addenbrooke's Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","Newmarket Road","NA","Newmarket Road","NA","Hobson Avenue","Shelford Road","Shelford Road","Shelford Road","Hauxton Road","Milton Road","Grange Road","Shelford Road","Hills Road","East Road","High Street","Hills Road","Coldhams Lane","Harrison Drive","Radegund Road","Perne Road","Perne Road","Perne Road","Great Northern Road","Newmarket Road","Castle Street","Madingley Road","Wadloes Road","Gilbert Road","Histon Road","M11","Histon Road"],"header":"Road name","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Mean age","name":"Mean age","type":"numeric","cell":["NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA","NA"],"header":"Mean age","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Mean sex","name":"Mean sex","type":"numeric","cell":["0.6","0.6","0.6","0.5","0.4","0.7","0.5","0.4","0.1","0.4","0.6","1.0","0.6","0.4","1.0","0.5","0.9","0.4","0.6","0.3","0.7","0.7","0.7","0.7","0.7","0.7","0.5","0.4","0.8","0.6","0.8","0.7","0.6","0.6","0.8","0.9","0.5","0.8","0.3","0.4","0.9","0.6","0.6","0.8","0.5","0.5","0.5","0.6","0.5","0.2","0.2","0.5","0.8","0.3","0.2","0.5","1.0","0.5","0.2","0.8","0.8","0.5","0.2","0.8","0.2","1.0","1.0","1.0","0.5","1.0","0.3","0.0","0.8","0.3","0.3","1.0","0.5","0.7","0.3","0.6","1.0","0.7","0.8","0.3","NA","0.7","1.0","0.7","1.0","1.0","0.5","0.8","0.8","0.2","0.2","1.0","0.7","0.3","0.8","0.7","0.7","0.6","0.8","1.0","NA","0.0","0.7","1.0","0.3","0.7","0.8","0.8","0.8","0.5","0.3","0.3","0.2","0.5","0.5","1.0","0.3","0.0","1.0","0.0","0.0","1.0","1.0","0.5","0.5","0.5","1.0","0.5","0.3","0.5","1.0","0.5","1.0","1.0","1.0","1.0","1.0","0.5","0.5","0.7","0.3","0.5","1.0","0.5","0.5","0.7","0.0","1.0","0.5","0.5","0.5","0.5","0.0","0.5","1.0","0.0","0.5","0.5","1.0","1.0","1.0","1.0","0.5","0.5","0.0","1.0","0.5","1.0","0.5","0.5","0.5","0.0","0.0","0.5","0.5","1.0","1.0","0.5","0.7","1.0","0.5","1.0","0.5","0.5","0.5","1.0","0.5","0.5","0.5","1.0","0.5","0.5","0.5","0.0","1.0","0.7","0.5","1.0","1.0","1.0","0.7","0.7","1.0","1.0","0.5","1.0","0.7","0.5","0.5","1.0","0.5","1.0","0.5","0.5","0.5","1.0","1.0","1.0","0.0","0.5","1.0","0.7","0.8","1.0","0.5","0.5","1.0","0.5","0.5","0.5","0.5","1.0","0.5","0.5","1.0","0.5","1.0","0.3","0.0","0.5","1.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.5","0.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","0.5","1.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","0.0","1.0","1.0","1.0","0.0","1.0","0.5","0.0","1.0","1.0","0.0","0.0","1.0","0.2","0.5","1.0","1.0","1.0","0.0","0.5","1.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","0.3","1.0","0.0","1.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","1.0","1.0","0.0","0.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","0.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","1.0","1.0","1.0","0.0","0.0","0.0","0.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","1.0","0.5","0.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","1.0","1.0","0.5","1.0","1.0","1.0","1.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","1.0","1.0","0.0","0.0","1.0","1.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","1.0","0.7","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","1.0","0.0","1.0","0.0","1.0","1.0","0.0","1.0","1.0","0.0","0.0","1.0","1.0","1.0","0.0","1.0","0.5","0.7","1.0","1.0","1.0","0.0","0.5","0.0","1.0","1.0","1.0","0.5","1.0","0.0","1.0","0.5","0.0","0.0","0.5","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","NA"],"header":"Mean sex","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Speed limit","name":"Speed limit","type":"numeric","cell":["25.0","25.0","30.0","28.0","30.0","30.0","29.0","28.0","29.0","23.0","30.0","30.0","27.0","20.0","24.0","30.0","28.0","29.0","30.0","24.0","25.0","30.0","30.0","27.0","28.0","35.0","30.0","30.0","30.0","26.0","22.0","30.0","30.0","30.0","28.0","30.0","30.0","30.0","30.0","30.0","30.0","26.0","24.0","24.0","30.0","30.0","25.0","30.0","25.0","30.0","35.0","32.0","30.0","28.0","30.0","30.0","28.0","28.0","22.0","26.0","25.0","25.0","28.0","55.0","28.0","30.0","27.0","32.0","25.0","30.0","30.0","30.0","20.0","33.0","70.0","23.0","25.0","27.0","33.0","30.0","23.0","30.0","28.0","27.0","25.0","27.0","33.0","27.0","23.0","27.0","30.0","28.0","25.0","22.0","22.0","30.0","33.0","33.0","30.0","33.0","30.0","30.0","30.0","23.0","30.0","27.0","30.0","33.0","30.0","23.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","20.0","25.0","30.0","30.0","30.0","30.0","30.0","30.0","25.0","30.0","30.0","35.0","25.0","25.0","30.0","30.0","30.0","35.0","30.0","35.0","25.0","25.0","25.0","30.0","25.0","30.0","30.0","25.0","35.0","30.0","20.0","30.0","35.0","30.0","30.0","30.0","25.0","25.0","25.0","30.0","30.0","27.0","30.0","20.0","25.0","25.0","30.0","30.0","30.0","20.0","30.0","25.0","20.0","20.0","30.0","25.0","35.0","25.0","20.0","20.0","30.0","30.0","30.0","20.0","30.0","20.0","25.0","25.0","25.0","35.0","25.0","30.0","25.0","25.0","30.0","35.0","20.0","30.0","20.0","30.0","25.0","30.0","30.0","30.0","30.0","32.0","20.0","33.0","25.0","30.0","30.0","30.0","30.0","25.0","20.0","30.0","30.0","30.0","30.0","30.0","35.0","30.0","30.0","30.0","30.0","30.0","25.0","27.0","70.0","30.0","20.0","30.0","35.0","35.0","30.0","20.0","30.0","30.0","30.0","25.0","25.0","30.0","30.0","33.0","30.0","25.0","30.0","35.0","30.0","30.0","30.0","20.0","25.0","70.0","20.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","40.0","30.0","40.0","30.0","30.0","30.0","30.0","20.0","20.0","30.0","20.0","30.0","20.0","30.0","30.0","30.0","20.0","20.0","30.0","20.0","20.0","30.0","30.0","30.0","20.0","20.0","30.0","30.0","30.0","40.0","30.0","20.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","30.0","20.0","20.0","40.0","30.0","20.0","30.0","20.0","30.0","30.0","30.0","30.0","20.0","30.0","60.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","40.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","40.0","30.0","30.0","30.0","20.0","20.0","30.0","30.0","20.0","20.0","20.0","40.0","40.0","30.0","30.0","70.0","20.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","30.0","20.0","20.0","30.0","30.0","30.0","30.0","30.0","40.0","30.0","30.0","20.0","30.0","20.0","30.0","30.0","30.0","20.0","30.0","20.0","20.0","30.0","30.0","20.0","20.0","40.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","20.0","20.0","30.0","20.0","20.0","30.0","30.0","30.0","20.0","30.0","20.0","30.0","30.0","20.0","30.0","30.0","40.0","30.0","30.0","20.0","20.0","30.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","20.0","30.0","20.0","20.0","20.0","30.0","30.0","20.0","30.0","20.0","30.0","30.0","40.0","20.0","40.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","20.0","30.0","30.0","20.0","20.0","20.0","30.0","30.0","30.0","30.0","70.0","20.0","70.0","30.0","20.0","30.0","30.0","20.0","30.0","30.0","20.0","30.0","30.0","20.0","20.0","30.0","20.0","30.0","30.0","30.0","30.0","30.0","40.0","30.0","30.0","30.0","20.0","30.0","20.0","30.0","30.0","30.0","60.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","40.0","30.0","30.0","70.0","30.0","30.0","20.0","30.0","20.0","40.0","30.0","70.0","70.0","20.0","20.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","40.0","50.0","40.0","30.0","30.0","30.0","40.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","40.0","30.0","30.0","30.0","30.0","30.0","20.0","30.0","30.0","30.0","NaN","20.0","20.0","70.0","30.0","30.0","30.0","70.0","30.0"],"header":"Speed limit","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"# collisions","name":"# collisions","type":"numeric","cell":["28","16","14","12","11","9","8","8","8","8","8","8","7","7","7","7","7","6","6","6","6","6","6","6","6","6","6","5","5","5","5","5","5","5","5","5","5","5","5","5","5","5","5","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","4","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","3","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","2","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1","1"],"header":"# collisions","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Fatal","name":"Fatal","type":"numeric","cell":["0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0"],"header":"Fatal","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Serious","name":"Serious","type":"numeric","cell":["9.0","7.0","5.0","1.0","5.0","1.0","4.0","2.0","1.0","4.0","2.0","3.0","3.0","2.0","1.0","0.0","3.0","2.0","3.0","3.0","3.0","2.0","0.0","3.0","2.0","1.0","0.0","1.0","1.0","2.0","1.0","0.0","0.0","2.0","0.0","3.0","1.0","1.0","2.0","1.0","0.0","2.0","2.0","3.0","2.0","2.0","2.0","0.0","3.0","0.0","0.0","1.0","1.0","1.0","0.0","2.0","0.0","1.0","0.0","1.0","1.0","4.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","2.0","0.0","0.0","0.0","2.0","0.0","0.0","0.0","1.0","1.0","1.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","1.0","0.0","1.0","1.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","2.0","0.0","1.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","2.0","0.0","0.0","1.0","0.0","1.0","2.0","2.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","1.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","2.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","2.0","1.0","1.0","1.0","2.0","0.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","1.0","1.0","3.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","2.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","2.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","2.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","2.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0"],"header":"Serious","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"KSI","name":"KSI","type":"numeric","cell":["9.0","7.0","5.0","1.0","5.0","1.0","4.0","2.0","1.0","4.0","2.0","3.0","3.0","2.0","1.0","0.0","3.0","2.0","3.0","3.0","3.0","2.0","0.0","3.0","2.0","1.0","0.0","1.0","1.0","2.0","1.0","0.0","0.0","2.0","0.0","3.0","1.0","1.0","2.0","1.0","0.0","2.0","2.0","3.0","2.0","2.0","2.0","0.0","3.0","0.0","0.0","1.0","1.0","1.0","0.0","2.0","0.0","1.0","0.0","1.0","1.0","4.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","2.0","0.0","0.0","0.0","2.0","0.0","0.0","0.0","1.0","1.0","1.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","1.0","0.0","1.0","1.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","2.0","0.0","1.0","1.0","2.0","0.0","1.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","2.0","0.0","0.0","1.0","0.0","1.0","2.0","2.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","1.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","2.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","2.0","1.0","1.0","1.0","2.0","0.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","1.0","1.0","3.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","2.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","2.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","2.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","1.0","0.0","1.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","1.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","0.0","0.0","2.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0","0.0"],"header":"KSI","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Slight","name":"Slight","type":"numeric","cell":["20.0","9.0","9.0","12.0","6.0","9.0","6.0","7.0","7.0","5.0","6.0","6.0","4.0","6.0","6.0","10.0","5.0","5.0","5.0","4.0","3.0","4.0","6.0","4.0","4.0","5.0","6.0","4.0","5.0","3.0","4.0","10.0","7.0","3.0","5.0","4.0","5.0","4.0","7.0","4.0","7.0","3.0","3.0","2.0","2.0","2.0","2.0","5.0","1.0","5.0","4.0","3.0","4.0","5.0","4.0","2.0","4.0","3.0","5.0","4.0","3.0","0.0","4.0","3.0","5.0","5.0","5.0","4.0","3.0","4.0","3.0","1.0","4.0","3.0","3.0","1.0","6.0","3.0","3.0","4.0","2.0","2.0","3.0","3.0","4.0","2.0","3.0","3.0","3.0","2.0","3.0","4.0","3.0","3.0","3.0","3.0","2.0","2.0","3.0","2.0","2.0","4.0","4.0","2.0","3.0","3.0","2.0","3.0","6.0","2.0","4.0","5.0","2.0","4.0","2.0","2.0","2.0","2.0","1.0","1.0","3.0","2.0","1.0","2.0","2.0","2.0","1.0","2.0","4.0","1.0","1.0","2.0","2.0","2.0","2.0","1.0","0.0","2.0","2.0","1.0","2.0","1.0","0.0","1.0","3.0","2.0","2.0","2.0","2.0","2.0","1.0","2.0","2.0","1.0","1.0","1.0","2.0","2.0","1.0","3.0","1.0","2.0","2.0","2.0","1.0","3.0","2.0","2.0","2.0","1.0","2.0","1.0","2.0","2.0","2.0","0.0","2.0","2.0","2.0","2.0","2.0","1.0","3.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","1.0","2.0","0.0","1.0","1.0","1.0","0.0","2.0","2.0","2.0","2.0","1.0","4.0","2.0","3.0","2.0","1.0","1.0","1.0","0.0","1.0","2.0","2.0","1.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","1.0","0.0","1.0","3.0","3.0","2.0","1.0","2.0","2.0","2.0","2.0","1.0","2.0","2.0","2.0","1.0","2.0","1.0","2.0","3.0","1.0","2.0","2.0","2.0","2.0","1.0","2.0","2.0","0.0","3.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","0.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","1.0","1.0","0.0","1.0","1.0","2.0","1.0","1.0","1.0","2.0","1.0","0.0","0.0","1.0","1.0","1.0","4.0","2.0","0.0","1.0","1.0","0.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","2.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","1.0","1.0","0.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","0.0","1.0","1.0","0.0","0.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","2.0","1.0","1.0","1.0","0.0","1.0","0.0","0.0","1.0","0.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","0.0","1.0","1.0","0.0","1.0","1.0","1.0","0.0","2.0","1.0","1.0","1.0","1.0","5.0","1.0","2.0","1.0","1.0","2.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","0.0","0.0","1.0","0.0","1.0","1.0","1.0","0.0","1.0","0.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","1.0","0.0","0.0","1.0","0.0","1.0","0.0","1.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","0.0","0.0","1.0","1.0","2.0","0.0","1.0","0.0","0.0","1.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","2.0","0.0","1.0","0.0","1.0","1.0","1.0","1.0","2.0","0.0","0.0","1.0","0.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","2.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","0.0","1.0","1.0","0.0","1.0","3.0","1.0","1.0","1.0","0.0","2.0","0.0","1.0","1.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","3.0","1.0","0.0","1.0","1.0","3.0","1.0","1.0","1.0","0.0","1.0","1.0","0.0","1.0","1.0","2.0","1.0","0.0","0.0","1.0","0.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","2.0","1.0","0.0","0.0","1.0","1.0","1.0","0.0","2.0","1.0","0.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","0.0","1.0","2.0","1.0","1.0","2.0","0.0","1.0","0.0","1.0","1.0","1.0","0.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0"],"header":"Slight","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Total","name":"Total","type":"numeric","cell":["29.0","16.0","14.0","13.0","11.0","10.0","10.0","9.0","8.0","9.0","8.0","9.0","7.0","8.0","7.0","10.0","8.0","7.0","8.0","7.0","6.0","6.0","6.0","7.0","6.0","6.0","6.0","5.0","6.0","5.0","5.0","10.0","7.0","5.0","5.0","7.0","6.0","5.0","9.0","5.0","7.0","5.0","5.0","5.0","4.0","4.0","4.0","5.0","4.0","5.0","4.0","4.0","5.0","6.0","4.0","4.0","4.0","4.0","5.0","5.0","4.0","4.0","4.0","4.0","6.0","6.0","6.0","5.0","4.0","4.0","3.0","3.0","4.0","3.0","3.0","3.0","6.0","3.0","3.0","5.0","3.0","3.0","4.0","3.0","4.0","3.0","3.0","3.0","3.0","3.0","4.0","4.0","4.0","4.0","4.0","3.0","3.0","3.0","4.0","3.0","3.0","5.0","4.0","3.0","3.0","3.0","3.0","3.0","6.0","3.0","5.0","5.0","4.0","4.0","3.0","3.0","4.0","2.0","2.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","4.0","2.0","2.0","2.0","3.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","3.0","3.0","2.0","2.0","2.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","3.0","2.0","2.0","2.0","4.0","3.0","3.0","2.0","2.0","2.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","3.0","4.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","3.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","2.0","3.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","2.0","4.0","2.0","1.0","1.0","1.0","1.0","2.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","3.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","6.0","1.0","2.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","3.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","3.0","1.0","1.0","1.0","1.0","3.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","3.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","2.0","1.0","1.0","2.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","1.0","2.0","1.0","1.0","1.0","2.0","1.0"],"header":"Total","minWidth":30,"align":"center","headerStyle":{"background":"grey"}}],"defaultPageSize":10,"highlight":true,"bordered":true,"theme":{"style":{"fontFamily":"Geist, system-ui, sans-serif","fontSize":"13px"},"headerStyle":{"fontWeight":600},"cellStyle":{"lineHeight":"1.5"}},"dataKey":"e3986f2217044c6d42f33c658f64c1fd"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p>The plots below show plots of collisions of the 2 roads with the most collisions in Cambridge: Mill Road and Mill Road. The plot on the left represents the casualties and the plot on the right vehicles involved. To see a plot larger, right click and either save or “open in new tab”.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/streets/Mill_Road_cas_map.png" class="img-fluid" width="1823"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/streets/Mill_Road_All_veh_map.png" class="img-fluid" width="1823"></p>
+</div>
+</div>
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/streets/Mill_Road_cas_map.png" class="img-fluid" width="1823"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/streets/Mill_Road_All_veh_map.png" class="img-fluid" width="1823"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="speed-limits-casualty-rates-by-road-speed-limit" class="level2">
+<h2 class="anchored" data-anchor-id="speed-limits-casualty-rates-by-road-speed-limit">Speed Limits: Casualty rates by road speed limit</h2>
+<p>In Cambridge, according to OSM data the majority of roads are 20mph (56%). Between 2010 and 2024 the majority of collisions (820) happened on 30mph roads. (100)% of fatalities happened on 30mph roads, which make up 19, NA% of roads in the LA. 211 casualties were seriously injured on 30mph roads. Collision rates per km are highest for 50mph roads, fatality rates highest on NA, NA, NA, NA, NA, NA, NAmph roads, serious injury rates highest on NA, NA, NA, NA, NA, NA, NAmph and slight injury rates 50mph. The collision rate on 20mph roads was 0, NA% lower than the highest roads (50mph) and fatality rates 0, NA% of 30mph roads and NaN, NA% of the highest fatality rate (NA, NA, NA, NA, NA, NA, NAmph) roads. KSI rates were highest on NA, NA, NA, NA, NA, NA, NAmph roads, 8.8, NA times higher than 20mph roads.</p>
+<p>The chart below shows percentage of fatalities by road speed limit.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="outputs/Cambridge/plots/conditions/speed_limit_fatal.png" class="img-fluid figure-img" width="1800"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Applying the 30mph fatality rate (0.261, NA) fatalities per 1000 collisions to the number of 20mph collisions would give 1, NA fatalities. Applying the per km rate of 12.75, NA to the 20mph road network would give a staggering 10, NA fatalities.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fwxmnkwmwj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#fwxmnkwmwj table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#fwxmnkwmwj thead, #fwxmnkwmwj tbody, #fwxmnkwmwj tfoot, #fwxmnkwmwj tr, #fwxmnkwmwj td, #fwxmnkwmwj th {
+  border-style: none;
+}
+
+#fwxmnkwmwj p {
+  margin: 0;
+  padding: 0;
+}
+
+#fwxmnkwmwj .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#fwxmnkwmwj .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#fwxmnkwmwj .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#fwxmnkwmwj .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_bottom_border {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_col_headings {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #334422;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#fwxmnkwmwj .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#fwxmnkwmwj .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#fwxmnkwmwj .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#fwxmnkwmwj .gt_column_spanner {
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #334422;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#fwxmnkwmwj .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#fwxmnkwmwj .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#fwxmnkwmwj .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#fwxmnkwmwj .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#fwxmnkwmwj .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#fwxmnkwmwj .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#fwxmnkwmwj .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwxmnkwmwj .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#fwxmnkwmwj .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#fwxmnkwmwj .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#fwxmnkwmwj .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwxmnkwmwj .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#fwxmnkwmwj .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwxmnkwmwj .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#fwxmnkwmwj .gt_table_body {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #FFFFFF;
+}
+
+#fwxmnkwmwj .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwxmnkwmwj .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fwxmnkwmwj .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwxmnkwmwj .gt_left {
+  text-align: left;
+}
+
+#fwxmnkwmwj .gt_center {
+  text-align: center;
+}
+
+#fwxmnkwmwj .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#fwxmnkwmwj .gt_font_normal {
+  font-weight: normal;
+}
+
+#fwxmnkwmwj .gt_font_bold {
+  font-weight: bold;
+}
+
+#fwxmnkwmwj .gt_font_italic {
+  font-style: italic;
+}
+
+#fwxmnkwmwj .gt_super {
+  font-size: 65%;
+}
+
+#fwxmnkwmwj .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#fwxmnkwmwj .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#fwxmnkwmwj .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#fwxmnkwmwj .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#fwxmnkwmwj .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#fwxmnkwmwj .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#fwxmnkwmwj .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#fwxmnkwmwj .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#fwxmnkwmwj div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<td colspan="17" class="gt_heading gt_title gt_font_normal gt_bottom_border"><strong>Casualties and collisions by speed limit and road length, Cambridge: 2010 to 2024</strong></td>
+</tr>
+<tr class="gt_col_headings even">
+<th id="speed_limit" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="font-size: 2; font-weight: bold" scope="col"><strong>Speed Limit (mph)</strong></th>
+<th id="collisions" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Collisions</strong></th>
+<th id="fatal" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Fatal</strong></th>
+<th id="serious" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Serious</strong></th>
+<th id="ksi" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>KSI</strong></th>
+<th id="slight" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Slight</strong></th>
+<th id="tot_length" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Total length (km)</strong></th>
+<th id="pc_length" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>% of LA roads</strong></th>
+<th id="coll_km" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Collisions per km</strong></th>
+<th id="fatal_km" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Fatal per km</strong></th>
+<th id="serious_km" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Serious per km</strong></th>
+<th id="ksi_km" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>KSI per km</strong></th>
+<th id="slight_km" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Slight per km</strong></th>
+<th id="fatal_col" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Fatal per collision</strong></th>
+<th id="serious_col" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Serious per collision</strong></th>
+<th id="ksi_col" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>KSI per collision</strong></th>
+<th id="slight_col" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>Slight per collision</strong></th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="speed_limit" style="font-size: 2; font-weight: bold">20</td>
+<td class="gt_row gt_right" headers="collisions">277</td>
+<td class="gt_row gt_right" headers="fatal">0</td>
+<td class="gt_row gt_right" headers="serious">74</td>
+<td class="gt_row gt_right" headers="ksi">74</td>
+<td class="gt_row gt_right" headers="slight">227</td>
+<td class="gt_row gt_right" headers="tot_length">193.8</td>
+<td class="gt_row gt_right" headers="pc_length">56.1</td>
+<td class="gt_row gt_right" headers="coll_km">1.43</td>
+<td class="gt_row gt_right" headers="fatal_km">0.00</td>
+<td class="gt_row gt_right" headers="serious_km">0.38</td>
+<td class="gt_row gt_right" headers="ksi_km">0.38</td>
+<td class="gt_row gt_right" headers="slight_km">1.17</td>
+<td class="gt_row gt_right" headers="fatal_col">0.000</td>
+<td class="gt_row gt_right" headers="serious_col">0.267</td>
+<td class="gt_row gt_right" headers="ksi_col">0.267</td>
+<td class="gt_row gt_right" headers="slight_col">0.819</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="speed_limit" style="font-size: 2; font-weight: bold">30</td>
+<td class="gt_row gt_right" headers="collisions">820</td>
+<td class="gt_row gt_right" headers="fatal">3</td>
+<td class="gt_row gt_right" headers="serious">211</td>
+<td class="gt_row gt_right" headers="ksi">214</td>
+<td class="gt_row gt_right" headers="slight">719</td>
+<td class="gt_row gt_right" headers="tot_length">64.3</td>
+<td class="gt_row gt_right" headers="pc_length">18.6</td>
+<td class="gt_row gt_right" headers="coll_km">12.75</td>
+<td class="gt_row gt_right" headers="fatal_km">0.05</td>
+<td class="gt_row gt_right" headers="serious_km">3.28</td>
+<td class="gt_row gt_right" headers="ksi_km">3.33</td>
+<td class="gt_row gt_right" headers="slight_km">11.18</td>
+<td class="gt_row gt_right" headers="fatal_col">0.004</td>
+<td class="gt_row gt_right" headers="serious_col">0.257</td>
+<td class="gt_row gt_right" headers="ksi_col">0.261</td>
+<td class="gt_row gt_right" headers="slight_col">0.877</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="speed_limit" style="font-size: 2; font-weight: bold">40</td>
+<td class="gt_row gt_right" headers="collisions">54</td>
+<td class="gt_row gt_right" headers="fatal">0</td>
+<td class="gt_row gt_right" headers="serious">11</td>
+<td class="gt_row gt_right" headers="ksi">11</td>
+<td class="gt_row gt_right" headers="slight">49</td>
+<td class="gt_row gt_right" headers="tot_length">8.9</td>
+<td class="gt_row gt_right" headers="pc_length">2.6</td>
+<td class="gt_row gt_right" headers="coll_km">6.07</td>
+<td class="gt_row gt_right" headers="fatal_km">0.00</td>
+<td class="gt_row gt_right" headers="serious_km">1.24</td>
+<td class="gt_row gt_right" headers="ksi_km">1.24</td>
+<td class="gt_row gt_right" headers="slight_km">5.51</td>
+<td class="gt_row gt_right" headers="fatal_col">0.000</td>
+<td class="gt_row gt_right" headers="serious_col">0.204</td>
+<td class="gt_row gt_right" headers="ksi_col">0.204</td>
+<td class="gt_row gt_right" headers="slight_col">0.907</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="speed_limit" style="font-size: 2; font-weight: bold">50</td>
+<td class="gt_row gt_right" headers="collisions">2</td>
+<td class="gt_row gt_right" headers="fatal">0</td>
+<td class="gt_row gt_right" headers="serious">0</td>
+<td class="gt_row gt_right" headers="ksi">0</td>
+<td class="gt_row gt_right" headers="slight">2</td>
+<td class="gt_row gt_right" headers="tot_length">0.0</td>
+<td class="gt_row gt_right" headers="pc_length">0.0</td>
+<td class="gt_row gt_right" headers="coll_km">Inf</td>
+<td class="gt_row gt_right" headers="fatal_km">NaN</td>
+<td class="gt_row gt_right" headers="serious_km">NaN</td>
+<td class="gt_row gt_right" headers="ksi_km">NaN</td>
+<td class="gt_row gt_right" headers="slight_km">Inf</td>
+<td class="gt_row gt_right" headers="fatal_col">0.000</td>
+<td class="gt_row gt_right" headers="serious_col">0.000</td>
+<td class="gt_row gt_right" headers="ksi_col">0.000</td>
+<td class="gt_row gt_right" headers="slight_col">1.000</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="speed_limit" style="font-size: 2; font-weight: bold">60</td>
+<td class="gt_row gt_right" headers="collisions">5</td>
+<td class="gt_row gt_right" headers="fatal">0</td>
+<td class="gt_row gt_right" headers="serious">2</td>
+<td class="gt_row gt_right" headers="ksi">2</td>
+<td class="gt_row gt_right" headers="slight">3</td>
+<td class="gt_row gt_right" headers="tot_length">3.5</td>
+<td class="gt_row gt_right" headers="pc_length">1.0</td>
+<td class="gt_row gt_right" headers="coll_km">1.43</td>
+<td class="gt_row gt_right" headers="fatal_km">0.00</td>
+<td class="gt_row gt_right" headers="serious_km">0.57</td>
+<td class="gt_row gt_right" headers="ksi_km">0.57</td>
+<td class="gt_row gt_right" headers="slight_km">0.86</td>
+<td class="gt_row gt_right" headers="fatal_col">0.000</td>
+<td class="gt_row gt_right" headers="serious_col">0.400</td>
+<td class="gt_row gt_right" headers="ksi_col">0.400</td>
+<td class="gt_row gt_right" headers="slight_col">0.600</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="speed_limit" style="font-size: 2; font-weight: bold">70</td>
+<td class="gt_row gt_right" headers="collisions">15</td>
+<td class="gt_row gt_right" headers="fatal">0</td>
+<td class="gt_row gt_right" headers="serious">4</td>
+<td class="gt_row gt_right" headers="ksi">4</td>
+<td class="gt_row gt_right" headers="slight">18</td>
+<td class="gt_row gt_right" headers="tot_length">7.0</td>
+<td class="gt_row gt_right" headers="pc_length">2.0</td>
+<td class="gt_row gt_right" headers="coll_km">2.14</td>
+<td class="gt_row gt_right" headers="fatal_km">0.00</td>
+<td class="gt_row gt_right" headers="serious_km">0.57</td>
+<td class="gt_row gt_right" headers="ksi_km">0.57</td>
+<td class="gt_row gt_right" headers="slight_km">2.57</td>
+<td class="gt_row gt_right" headers="fatal_col">0.000</td>
+<td class="gt_row gt_right" headers="serious_col">0.267</td>
+<td class="gt_row gt_right" headers="ksi_col">0.267</td>
+<td class="gt_row gt_right" headers="slight_col">1.200</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="speed_limit" style="font-size: 2; font-weight: bold">NA</td>
+<td class="gt_row gt_right" headers="collisions">1</td>
+<td class="gt_row gt_right" headers="fatal">0</td>
+<td class="gt_row gt_right" headers="serious">0</td>
+<td class="gt_row gt_right" headers="ksi">0</td>
+<td class="gt_row gt_right" headers="slight">1</td>
+<td class="gt_row gt_right" headers="tot_length">66.1</td>
+<td class="gt_row gt_right" headers="pc_length">19.1</td>
+<td class="gt_row gt_right" headers="coll_km">0.02</td>
+<td class="gt_row gt_right" headers="fatal_km">0.00</td>
+<td class="gt_row gt_right" headers="serious_km">0.00</td>
+<td class="gt_row gt_right" headers="ksi_km">0.00</td>
+<td class="gt_row gt_right" headers="slight_km">0.02</td>
+<td class="gt_row gt_right" headers="fatal_col">0.000</td>
+<td class="gt_row gt_right" headers="serious_col">0.000</td>
+<td class="gt_row gt_right" headers="ksi_col">0.000</td>
+<td class="gt_row gt_right" headers="slight_col">1.000</td>
+</tr>
+</tbody><tfoot class="gt_footnotes">
+<tr class="odd">
+<td colspan="17" class="gt_footnote"><strong>Source: DfT STATS19 and OSM</strong></td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+</div>
+</div>
+</section>
+<section id="grouping-by-area-and-imd" class="level2">
+<h2 class="anchored" data-anchor-id="grouping-by-area-and-imd">Grouping by area and IMD</h2>
+<section id="lsoa." class="level3">
+<h3 class="anchored" data-anchor-id="lsoa.">LSOA.</h3>
+<p>The top left plot below show the distribution of the population by LSOA zone, <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates">the most granular population data available for the whole of Great Britain</a>. In the top right are the number of total collisions by LSOA zone, calculated by intersecting the crash data with the LSOA shape files and the bottom two plots shows the home LSOA of casualties and vehicles involved in collisions in the city.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="outputs/Cambridge/plots/lsoa/lsoa_all.png" class="img-fluid figure-img" width="4000"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="relationship-with-index-of-multiple-deprivation-decile-imd" class="level3">
+<h3 class="anchored" data-anchor-id="relationship-with-index-of-multiple-deprivation-decile-imd">Relationship with Index of Multiple Deprivation Decile (IMD)</h3>
+<p>The Index of Multiple Deprivation (IMD) is the official measure of relative deprivation in England and is part of a suite of outputs that form the Indices of Deprivation (IoD) given as a decile in the STATS19 casualty and vehicle data for the casualty and drivers home LSOA respectively. It follows an established methodological framework in broadly defining deprivation to encompass a wide range of an individual’s living conditions. It is important in road traffic collision analysis because it says something about where harm is distributed in society. In Cambridge, 72.4% of the population fall into the least deprived IMD decile. 68.4, NA% of casualties injured between 2010 and 2024 fall into the least, NA deprived IMD decile. NA% of casualty data had home LSOA.</p>
+</section>
+<section id="imd-and-casualties" class="level3">
+<h3 class="anchored" data-anchor-id="imd-and-casualties">IMD and Casualties</h3>
+<p>The relationship between deprivation and road casualty risk is marked in Cambridge. The most deprived IMD decile (decile 1) accounts for 6% of casualties (69), while the least deprived (decile 10) accounts for 13% (149). Residents of the most deprived areas are 0.5 times more likely to be a casualty than those in the least deprived decile. The decile with the highest number of casualties overall is decile 9 with 17 casualties (1.5%). As noted above, NA% of casualty records had a home LSOA that could be matched to an IMD decile, where as only xx of driver data had data on home location.</p>
+<p>The charts below show a breakdown of the ages and sex number of KSI and IMD Decil of casualties in Cambridge.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/imd/ksi_imd_age.png" class="img-fluid" width="969"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/imd/ksi_imd_sex.png" class="img-fluid" width="969"></p>
+</div>
+</div>
+</div>
+<p>Analysis of KSI casualties by IMD decile in Cambridge reveals that decile 9 (least deprived) accounts for the highest KSI total across casualty types combined, with approximately 55 KSI casualties. Cyclists represent the highest KSI casualty type overall (~138). Pedestrian KSI peaks in decile 8, while cyclist KSI is highest in decile 9. By age, the most affected groups are 70+ for pedestrians, 30-39 for cyclists, and 16-19 for motorcyclists. Males account for approximately 155 KSI casualties compared to 106 for females.</p>
+</section>
+<section id="msoa" class="level3">
+<h3 class="anchored" data-anchor-id="msoa">MSOA</h3>
+<p>Between LSOA and Local Authority are Medium Super Output Levels (MSOA). Because of their relatively consistent size across the country, they are a useful unit for analysing data about small local areas and they also have been allocated descriptive names by <a href="https://houseofcommonslibrary.github.io/msoanames/">the House of Commons Library</a> makming it easier to describe areas. These areas have been used to analyse casualties by MSOA region and compare at a country level, similar to as has been done with LAs at the beginning of this document, but hopefully providing more targeted information for a local area.</p>
+<p>Analysing the population weighted IMD from LSOA for MSOA for different casualty types, the strongest trends are for Taxi occupant, Mobility scooter rider, Motorcyclist, Pedestrian casualties as shown in the plot below.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/msoa/la_8.png" class="img-fluid" width="1150"></p>
+</div>
+</div>
+</div>
+<p>The table below shows data for the 43 MSOA areas in Cambridge where casualties live and ranked against other MSOAs nationally. Casualties involved in collisions outside of Cambridge are also included. Between 2010 and 2024, the MSOA with the highest number of casualties was East Barnwell &amp; Abbey with 140 casualties. The most deprived MSOA (by weighted IMD score) was Kings Hedges (IMD 9.9), while the least deprived was Eddington &amp; Castle (IMD 4.6). The highest MSOA regions per capita where casualties live in Cambridge are Longstanton, Swavesey &amp; Oakington, ranked 101 nationally out of 7264 for fatalities per capita, East Barnwell &amp; Abbey ranked 493 for KSIs, East Barnwell &amp; Abbey ranked 377 for Serious casualties.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="reactable html-widget html-fill-item" id="htmlwidget-fab28d58f6307a14e76e" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-fab28d58f6307a14e76e">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"MSOA name":["Kings Hedges","Arbury","East Chesterton","West Chesterton","Eddington & Castle","East Barnwell & Abbey","Central & West Cambridge","Petersfield","Romsey","Coleridge","Cherry Hinton","Addenbrooke's & Queen Edith's","Littleport","Little Downham & Sutton","North Ely","South Ely","Haddenham, Stretham & Witchford","Soham","Isleham, Fordham & Chippenham","Burwell","Swaffham & Bottisham","Willingham & Over","Cottenham","Longstanton, Swavesey & Oakington","Waterbeach and Landbeach","HIston, Impington & Orchard Park","Milton, Fen Ditton & Quy","Hardwick & Highfields","Fulbourn & Teversham","Great Shelford & Stapleford","Barrington, Orwell & Gamlingay","Little Shelford , Foxton & Haslingfield","Sawston","Linton & Balsham","Duxford, Whittlesford & the Abingtons","Meldreth, Melbourn & Great Chishill","Bassingbourn & the Mordens","Dullingham & Cheveley","Cambourne","Papworth, Caxton & Fen Drayton","Bar Hill, Girton & Grantchester","Trumpington","Newtown"],"Fatal rank":[3691,3691,432,1450,3691,3691,3691,432,3691,432,1450,3691,125,432,432,1450,1450,125,432,432,1450,432,3691,9,1450,432,3691,432,43,3691,3691,432,3691,432,3691,1450,1450,3691,3691,1450,3691,3691,3691],"Serious rank":[201,882,501,4687,5892,129,6912,3713,915,2179,733,1702,4320,2264,1424,3384,137,416,1725,4176,3303,2479,5063,4246,4267,180,5568,3429,833,4179,3843,2542,5795,1932,1256,2646,5364,5187,4651,1242,1987,6906,6228],"Slight rank":[884,1967,1025,3372,6969,491,5896,2627,1240,5268,2190,2985,1862,2725,4440,5246,1543,746,3341,3608,3720,4461,4806,5919,4183,1589,6241,2869,2747,4804,3893,4802,3392,3481,4425,2239,5294,5007,5141,1757,3781,6902,6852],"KSI rank":[264,1051,436,4566,6071,173,6969,3241,1087,1878,750,1961,3352,1938,1215,3308,149,304,1473,3651,3227,2132,5329,2563,4131,160,5773,2959,482,4494,4181,2196,5985,1654,1465,2619,5223,5428,4958,1238,2278,6964,6379],"Total rank":[647,1701,825,3665,6902,349,6373,2728,1153,4524,1765,2728,2115,2524,3560,4926,989,573,2895,3665,3665,3938,5006,5290,4230,1019,6231,2895,1981,4821,4043,4230,4043,3046,3665,2307,5366,5193,5193,1591,3491,6957,6830],"Population":[10147,9633,11268,8571,13499,10330,16628,8316,10297,10691,9421,12015,10103,8639,12253,8616,10627,13675,6768,6474,6273,7402,7042,10626,6722,11606,4985,11151,8963,6676,7822,8408,7356,9326,8476,10098,7311,6300,10140,10517,10204,11259,6309],"Fatal per capita rank":[3690,3690,1412,2765,3690,3690,3690,933,3690,1323,3078,3690,520,1002,1592,2784,3387,1092,529,469,1689,692,3690,101,1910,1464,3690,1386,134,3690,3690,957,3690,1134,3690,3277,2147,3690,3690,3366,3690,3690,3690],"Serious per captia rank":[504,1418,1614,5067,6828,377,7124,3948,1810,3812,1118,3935,5448,2486,3697,3740,456,2472,764,2831,1739,1884,4496,5608,3133,893,3084,5224,1043,3026,3624,2680,5674,2607,1247,3940,5048,3928,5728,2409,3245,7053,5680],"KSI per captia rank":[629,1667,1448,4959,6895,493,7136,3400,2065,3478,1141,4307,4664,2137,3456,3679,502,2152,581,2205,1623,1493,4820,4205,2963,834,3464,4851,640,3405,4003,2308,5902,2311,1486,3917,4861,4301,5943,2477,3617,7077,5912],"Total per captia rank":[1158,2604,2128,4195,7099,654,7072,2905,2201,6084,2528,5248,3482,2898,5973,5478,2102,2843,1659,2250,2033,3513,4497,6489,3175,2775,4339,4988,2486,3888,4003,4680,3592,4063,4113,3729,5171,4019,6325,3049,5038,7084,6649]},"columns":[{"id":"MSOA name","name":"MSOA name","type":"character","cell":["Kings Hedges","Arbury","East Chesterton","West Chesterton","Eddington & Castle","East Barnwell & Abbey","Central & West Cambridge","Petersfield","Romsey","Coleridge","Cherry Hinton","Addenbrooke's & Queen Edith's","Littleport","Little Downham & Sutton","North Ely","South Ely","Haddenham, Stretham & Witchford","Soham","Isleham, Fordham & Chippenham","Burwell","Swaffham & Bottisham","Willingham & Over","Cottenham","Longstanton, Swavesey & Oakington","Waterbeach and Landbeach","HIston, Impington & Orchard Park","Milton, Fen Ditton & Quy","Hardwick & Highfields","Fulbourn & Teversham","Great Shelford & Stapleford","Barrington, Orwell & Gamlingay","Little Shelford , Foxton & Haslingfield","Sawston","Linton & Balsham","Duxford, Whittlesford & the Abingtons","Meldreth, Melbourn & Great Chishill","Bassingbourn & the Mordens","Dullingham & Cheveley","Cambourne","Papworth, Caxton & Fen Drayton","Bar Hill, Girton & Grantchester","Trumpington","Newtown"],"header":"MSOA name","minWidth":80,"align":"center","headerStyle":{"background":"grey"}},{"id":"Fatal rank","name":"Fatal rank","type":"numeric","cell":["3691","3691","432","1450","3691","3691","3691","432","3691","432","1450","3691","125","432","432","1450","1450","125","432","432","1450","432","3691","9","1450","432","3691","432","43","3691","3691","432","3691","432","3691","1450","1450","3691","3691","1450","3691","3691","3691"],"header":"Fatal rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Serious rank","name":"Serious rank","type":"numeric","cell":["201","882","501","4687","5892","129","6912","3713","915","2179","733","1702","4320","2264","1424","3384","137","416","1725","4176","3303","2479","5063","4246","4267","180","5568","3429","833","4179","3843","2542","5795","1932","1256","2646","5364","5187","4651","1242","1987","6906","6228"],"header":"Serious rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Slight rank","name":"Slight rank","type":"numeric","cell":["884","1967","1025","3372","6969","491","5896","2627","1240","5268","2190","2985","1862","2725","4440","5246","1543","746","3341","3608","3720","4461","4806","5919","4183","1589","6241","2869","2747","4804","3893","4802","3392","3481","4425","2239","5294","5007","5141","1757","3781","6902","6852"],"header":"Slight rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"KSI rank","name":"KSI rank","type":"numeric","cell":["264","1051","436","4566","6071","173","6969","3241","1087","1878","750","1961","3352","1938","1215","3308","149","304","1473","3651","3227","2132","5329","2563","4131","160","5773","2959","482","4494","4181","2196","5985","1654","1465","2619","5223","5428","4958","1238","2278","6964","6379"],"header":"KSI rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Total rank","name":"Total rank","type":"numeric","cell":["647","1701","825","3665","6902","349","6373","2728","1153","4524","1765","2728","2115","2524","3560","4926","989","573","2895","3665","3665","3938","5006","5290","4230","1019","6231","2895","1981","4821","4043","4230","4043","3046","3665","2307","5366","5193","5193","1591","3491","6957","6830"],"header":"Total rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Population","name":"Population","type":"numeric","cell":["10147.0","9633.0","11268.0","8571.0","13499.0","10330.0","16628.0","8316.0","10297.0","10691.0","9421.0","12015.0","10103.0","8639.0","12253.0","8616.0","10627.0","13675.0","6768.0","6474.0","6273.0","7402.0","7042.0","10626.0","6722.0","11606.0","4985.0","11151.0","8963.0","6676.0","7822.0","8408.0","7356.0","9326.0","8476.0","10098.0","7311.0","6300.0","10140.0","10517.0","10204.0","11259.0","6309.0"],"header":"Population","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Fatal per capita rank","name":"Fatal per capita rank","type":"numeric","cell":["3690","3690","1412","2765","3690","3690","3690","933","3690","1323","3078","3690","520","1002","1592","2784","3387","1092","529","469","1689","692","3690","101","1910","1464","3690","1386","134","3690","3690","957","3690","1134","3690","3277","2147","3690","3690","3366","3690","3690","3690"],"header":"Fatal per capita rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Serious per captia rank","name":"Serious per captia rank","type":"numeric","cell":["504","1418","1614","5067","6828","377","7124","3948","1810","3812","1118","3935","5448","2486","3697","3740","456","2472","764","2831","1739","1884","4496","5608","3133","893","3084","5224","1043","3026","3624","2680","5674","2607","1247","3940","5048","3928","5728","2409","3245","7053","5680"],"header":"Serious per captia rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"KSI per captia rank","name":"KSI per captia rank","type":"numeric","cell":["629","1667","1448","4959","6895","493","7136","3400","2065","3478","1141","4307","4664","2137","3456","3679","502","2152","581","2205","1623","1493","4820","4205","2963","834","3464","4851","640","3405","4003","2308","5902","2311","1486","3917","4861","4301","5943","2477","3617","7077","5912"],"header":"KSI per captia rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Total per captia rank","name":"Total per captia rank","type":"numeric","cell":["1158","2604","2128","4195","7099","654","7072","2905","2201","6084","2528","5248","3482","2898","5973","5478","2102","2843","1659","2250","2033","3513","4497","6489","3175","2775","4339","4988","2486","3888","4003","4680","3592","4063","4113","3729","5171","4019","6325","3049","5038","7084","6649"],"header":"Total per captia rank","minWidth":30,"align":"center","headerStyle":{"background":"grey"}}],"defaultPageSize":20,"highlight":true,"bordered":true,"theme":{"style":{"fontFamily":"Geist, system-ui, sans-serif","fontSize":"13px"},"headerStyle":{"fontWeight":600},"cellStyle":{"lineHeight":"1.5"}},"dataKey":"38891950008bef627f1e86831a1ba206"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+</section>
+<section id="casualty-demographics" class="level2">
+<h2 class="anchored" data-anchor-id="casualty-demographics">Casualty Demographics</h2>
+<p>Between 2010 and 2024, 59.3, NA% of all casualties in Cambridge were male and 40.5, NA% were female. Males also accounted for 60.9, NA% of KSI casualties. The most common age band for casualties was 30-39 (21.1% of all casualties), while the highest KSI rate was among the 30-39 age band (18.1% of all KSI). The table below shows the full breakdown of casualties by age band and sex, with severity and the percentage share of KSI and all casualties.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="outputs/Cambridge/plots/demog/demographics.png" class="img-fluid figure-img" width="969"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="reactable html-widget html-fill-item" id="htmlwidget-1a5d0bfdc514db461425" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1a5d0bfdc514db461425">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Sex of casualty":["Female","Female","Female","Female","Female","Female","Female","Female","Female","Female","Male","Male","Male","Male","Male","Male","Male","Male","Male","Male"],"Age band":["0-11","12-15","16-19","20-24","25-29","30-39","40-49","50-59","60-69","70+","0-11","12-15","16-19","20-24","25-29","30-39","40-49","50-59","60-69","70+"],"Fatal":[0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1],"Serious":[3,2,11,13,17,20,11,15,11,12,5,5,19,29,18,34,26,22,13,10],"Slight":[18,11,24,54,53,91,58,51,20,21,18,17,61,88,78,125,89,64,24,13],"KSI":[3,2,11,14,17,20,11,16,11,12,5,5,19,29,18,34,26,22,13,11],"All":[21,13,35,68,70,111,69,67,31,33,23,22,80,117,96,159,115,86,37,24],"% KSI":[1,0.7,3.7,4.7,5.7,6.7,3.7,5.4,3.7,4,1.7,1.7,6.4,9.7,6,11.4,8.7,7.4,4.3,3.7],"% All":[1.6,1,2.7,5.3,5.5,8.7,5.4,5.2,2.4,2.6,1.8,1.7,6.2,9.1,7.5,12.4,9,6.7,2.9,1.9]},"columns":[{"id":"Sex of casualty","name":"Sex of casualty","type":"character","cell":["Female","Female","Female","Female","Female","Female","Female","Female","Female","Female","Male","Male","Male","Male","Male","Male","Male","Male","Male","Male"],"header":"Sex of casualty","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Age band","name":"Age band","type":"factor","cell":["0-11","12-15","16-19","20-24","25-29","30-39","40-49","50-59","60-69","70+","0-11","12-15","16-19","20-24","25-29","30-39","40-49","50-59","60-69","70+"],"header":"Age band","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Fatal","name":"Fatal","type":"numeric","cell":["0.0","0.0","0.0","1.0","0.0","0.0","0.0","1.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","0.0","1.0"],"header":"Fatal","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Serious","name":"Serious","type":"numeric","cell":["3.0","2.0","11.0","13.0","17.0","20.0","11.0","15.0","11.0","12.0","5.0","5.0","19.0","29.0","18.0","34.0","26.0","22.0","13.0","10.0"],"header":"Serious","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"Slight","name":"Slight","type":"numeric","cell":["18.0","11.0","24.0","54.0","53.0","91.0","58.0","51.0","20.0","21.0","18.0","17.0","61.0","88.0","78.0","125.0","89.0","64.0","24.0","13.0"],"header":"Slight","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"KSI","name":"KSI","type":"numeric","cell":["3.0","2.0","11.0","14.0","17.0","20.0","11.0","16.0","11.0","12.0","5.0","5.0","19.0","29.0","18.0","34.0","26.0","22.0","13.0","11.0"],"header":"KSI","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"All","name":"All","type":"numeric","cell":["21.0","13.0","35.0","68.0","70.0","111.0","69.0","67.0","31.0","33.0","23.0","22.0","80.0","117.0","96.0","159.0","115.0","86.0","37.0","24.0"],"header":"All","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"% KSI","name":"% KSI","type":"numeric","cell":["1.0","0.7","3.7","4.7","5.7","6.7","3.7","5.4","3.7","4.0","1.7","1.7","6.4","9.7","6.0","11.4","8.7","7.4","4.3","3.7"],"header":"% KSI","minWidth":30,"align":"center","headerStyle":{"background":"grey"}},{"id":"% All","name":"% All","type":"numeric","cell":["1.6","1.0","2.7","5.3","5.5","8.7","5.4","5.2","2.4","2.6","1.8","1.7","6.2","9.1","7.5","12.4","9.0","6.7","2.9","1.9"],"header":"% All","minWidth":30,"align":"center","headerStyle":{"background":"grey"}}],"defaultPageSize":25,"highlight":true,"bordered":true,"theme":{"style":{"fontFamily":"Geist, system-ui, sans-serif","fontSize":"13px"},"headerStyle":{"fontWeight":600},"cellStyle":{"lineHeight":"1.5"}},"dataKey":"2bc4f8496b5b5b3603815f5c6c27d9bf"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="cost-of-prevention" class="level2">
+<h2 class="anchored" data-anchor-id="cost-of-prevention">Cost of prevention</h2>
+<p>Government TAG methodology (described <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/995103/rcgb-1994-article-5-valuation-of-road-accidents-revision.pdf">here</a> and <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/995110/rrcgb-valuation-methodology.pdf">here</a> allocates a cost of prevention to each collision. The costs are calculated initially based on casualty severity and then grouped by collision severity. For example, the cost of fatal collisions includes the cost of all casualties (including serious and slight casualties) that occur in fatal collisions. This can be matched in various ways to the collision data. The two methods used for the <a href="https://assets.publishing.service.gov.uk/media/68d421cc275fc9339a248c8e/ras4001.ods">overall reporting in ONS</a> is to simply match the collision severity recorded in the crash data to a single cost for slight, serious and fatal and also to match based on severity and road type. Using the same methods as in the ONS report, the chart below shows the total cost of prevention for the collisions Cambridge.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/costs/Cambridge_summarise_tag_costs.png" class="img-fluid" width="969"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/costs/Cambridge_summarise_tag_costs_road.png" class="img-fluid" width="969"></p>
+</div>
+</div>
+</div>
+<p>The cost of collisions by vehicle involved and by speed limit are shown in the plot below. 30mph roads had the highest total cost with £83,668,057, 208.4% above 20mph. The lowest total cost were NAmph with £24,960</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/costs/tag_total_cost_costs_speed_limit.png" class="img-fluid" width="1476"></p>
+</div>
+</div>
+</div>
+<p>Dividing the total cost on each road by the number of collisions gives an estimate for the average cost of each collision on each road. The lowest (£24,960) were NAmph roads and the highest (£136,963) 60mph roads. NA, NA, NA, NA, NA, NA, NA% of total collisions took place on NAmph roads, but NA, NA, NA, NA, NA, NA, NA% of the total cost and 60mph roads had 0, NA% of total collisions but 1, NA% of the total cost. The cost of collisions on 60mph roads are, on average, 5.5 times higher than NAmph roads. The average cost of collisions on 30mph roads was 1, NA times higher than 20mph roads.</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="1">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="outputs/Cambridge/plots/costs/tag_cost_per_col_costs_speed_limit.png" class="img-fluid" width="1476"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="single-vehicle-pavement-collisions" class="level2">
+<h2 class="anchored" data-anchor-id="single-vehicle-pavement-collisions">Single Vehicle Pavement Collisions</h2>
+<p>Between 2010 and 2024, nationally there were 9327 single-vehicle collisions where a pedestrian was struck on a footway or verge. 81% were people driving Cars, Taxis, Goods vehicles and Buses and 12% were people riding pedal cycles and e-scooters. Of these collisions there were 138 fatalities, 94% of these fatal collisions were with people driving Cars, Taxis, Goods vehicles and Buses and 1% died from collisions with people riding pedal cycles and e-scooters. A further 2300 serious injuries, 79% of the fatal collisions were with people driving Cars, Taxis, Goods vehicles and Buses and 13% from collisions with people riding pedal cycles and e-scooters.</p>
+<p>In Cambridge there were 25 reported incidents, resulting in 28 casualties. The vehicle type most commonly involved was Car with 9 collisions and 12 casualties. 48% of the vehicles in collisions were people driving Cars, Taxis, Goods vehicles and Buses and 44% were people riding pedal cycles and escooters. Of these collisions there were 1 fatalities, 100% of these collisions were with people driving Cars, Taxis, Goods vehicles and Buses and 0% from collisions with people riding pedal cycles and e-scooters. A further 3 serious injuries, 33% of which were with people driving Cars, Taxis, Goods vehicles and Buses and 67% from collisions with people riding pedal cycles and e-scooters. The plot below is meant to visually represent a pavement with squares for all the KSI casualties in Cambridge coloured by the vehicle that hit them.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="outputs/Cambridge/plots/streets/KSI_pavements.png" class="img-fluid figure-img" width="1574"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="appendix" class="level2">
+<h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
+</section>
+</section>
+<section id="casualty-type-categorisation." class="level1">
+<h1>Casualty type categorisation.</h1>
+<div class="cell">
+<div class="cell-output-display">
+<div id="edrfgodlsx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#edrfgodlsx table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#edrfgodlsx thead, #edrfgodlsx tbody, #edrfgodlsx tfoot, #edrfgodlsx tr, #edrfgodlsx td, #edrfgodlsx th {
+  border-style: none;
+}
+
+#edrfgodlsx p {
+  margin: 0;
+  padding: 0;
+}
+
+#edrfgodlsx .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#edrfgodlsx .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#edrfgodlsx .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#edrfgodlsx .gt_heading {
+  background-color: #FFFFFF;
+  text-align: left;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_bottom_border {
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_col_headings {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #000000;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#edrfgodlsx .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#edrfgodlsx .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#edrfgodlsx .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#edrfgodlsx .gt_column_spanner {
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #000000;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#edrfgodlsx .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#edrfgodlsx .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#edrfgodlsx .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#edrfgodlsx .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#edrfgodlsx .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#edrfgodlsx .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#edrfgodlsx .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#edrfgodlsx .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#edrfgodlsx .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#edrfgodlsx .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#edrfgodlsx .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#edrfgodlsx .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#edrfgodlsx .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#edrfgodlsx .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#edrfgodlsx .gt_table_body {
+  border-top-style: none;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #FFFFFF;
+}
+
+#edrfgodlsx .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#edrfgodlsx .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#edrfgodlsx .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#edrfgodlsx .gt_left {
+  text-align: left;
+}
+
+#edrfgodlsx .gt_center {
+  text-align: center;
+}
+
+#edrfgodlsx .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#edrfgodlsx .gt_font_normal {
+  font-weight: normal;
+}
+
+#edrfgodlsx .gt_font_bold {
+  font-weight: bold;
+}
+
+#edrfgodlsx .gt_font_italic {
+  font-style: italic;
+}
+
+#edrfgodlsx .gt_super {
+  font-size: 65%;
+}
+
+#edrfgodlsx .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#edrfgodlsx .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#edrfgodlsx .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#edrfgodlsx .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#edrfgodlsx .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#edrfgodlsx .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#edrfgodlsx .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#edrfgodlsx .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#edrfgodlsx div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_heading header">
+<td colspan="2" class="gt_heading gt_title gt_font_normal gt_bottom_border"><strong>Table showing casualty groupings used in report</strong></td>
+</tr>
+<tr class="gt_col_headings even">
+<th id="casualty_type" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col"><strong>STATS19 Name</strong></th>
+<th id="short_name" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>Catagorised</strong></th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Car occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Car occupant</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Motorcycle 125cc and under rider or passenger</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Motorcyclist</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Cyclist</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Cyclist</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Pedestrian</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Pedestrian</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Motorcycle over 500cc rider or passenger</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Motorcyclist</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Motorcycle over 125cc and up to 500cc rider or passenger</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Motorcyclist</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Motorcycle 50cc and under rider or passenger</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Motorcyclist</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Bus or coach occupant (17 or more pass seats)</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Bus occupant</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Taxi/Private hire car occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Taxi occupant</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Van / Goods vehicle (3.5 tonnes mgw or under) occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Goods vehicle occupant</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Other vehicle occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Other vehicle</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Data missing or out of range</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Data missing</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Motorcycle - unknown cc rider or passenger</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Motorcyclist</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Goods vehicle (7.5 tonnes mgw and over) occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Goods vehicle occupant</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Electric motorcycle rider or passenger</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Motorcyclist</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Minibus (8 - 16 passenger seats) occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Bus occupant</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Mobility scooter rider</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Mobility scooter rider</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Horse rider</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Horse rider</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Goods vehicle (over 3.5t. and under 7.5t.) occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Goods vehicle occupant</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Goods vehicle (unknown weight) occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Goods vehicle occupant</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">Agricultural vehicle occupant</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">Agricultural vehicle occupant</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="casualty_type" style="font-weight: bold; background-color: #FFFFFF">E-scooter rider</td>
+<td class="gt_row gt_left" headers="short_name" style="background-color: #FFFFFF">E-scooter rider</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
